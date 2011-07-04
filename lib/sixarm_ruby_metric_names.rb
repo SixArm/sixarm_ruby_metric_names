@@ -1,14 +1,15 @@
 # -*- encoding: utf-8 -*-
-#
-# = SixArm Ruby Gem: Numeric extensions for metric names
-#
-# Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
-# Copyright:: Copyright (c) 2009-2010 Joel Parker Henderson
-# License:: CreativeCommons License, Non-commercial Share Alike
-# License:: LGPL, GNU Lesser General Public License
-#
-#
-##
+
+=begin rdoc
+
+= SixArm Ruby Gem: Numeric extensions for metric names
+
+Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
+Copyright:: Copyright (c) 2009-2010 Joel Parker Henderson
+License:: CreativeCommons License, Non-commercial Share Alike
+License:: LGPL, GNU Lesser General Public License
+
+=end
 
 class Numeric
 
@@ -46,7 +47,7 @@ class Numeric
  def deka
   self*10
  end
- 
+
  # Return self / 10
  def deci
   self/10
