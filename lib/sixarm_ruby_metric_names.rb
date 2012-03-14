@@ -1,14 +1,5 @@
 # -*- encoding: utf-8 -*-
-
 =begin rdoc
-
-= SixArm Ruby Gem: Numeric extensions for metric names
-
-Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
-Copyright:: Copyright (c) 2009-2010 Joel Parker Henderson
-License:: CreativeCommons License, Non-commercial Share Alike
-License:: LGPL, GNU Lesser General Public License
-
 =end
 
 class Numeric
@@ -50,27 +41,27 @@ class Numeric
 
  # Return self / 10
  def deci
-  self/10
+  self.fdiv 10
  end
 
  # Return self / 10^2
  def centi
-  self/100
+  self.fdiv 100
  end
 
  # Return self / 10^3
  def milli
-  self/1000
+  self.fdiv 1000
  end
 
  # Return self / 10^6
  def micro
-  self/1000000
+  self.fdiv 1000000
  end
 
  # Return self / 10^9
  def nano
-  self/1000000000
+  self.fdiv 1000000000
  end
 
 
