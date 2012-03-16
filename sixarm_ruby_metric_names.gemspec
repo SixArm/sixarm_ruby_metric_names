@@ -12,9 +12,12 @@ Gem::Specification.new do |s|
   s.platform          = Gem::Platform::RUBY
   s.require_path      = 'lib'
   s.has_rdoc          = true
-  s.files             = ['lib/sixarm_ruby_metric_names.rb']
-  s.test_files        = ['test/sixarm_ruby_metric_names_test.rb']
 
-  #s.add_dependency('foo', '>=0.0.0')
+  top_files           = [".gemtest", "CHANGELOG.txt", "INSTALL.txt", "LICENSE.txt", "Rakefile", "README.md", "VERSION"]
+  lib_files           = ["lib/#{s.name}.rb"]
+  test_files          = ["test/#{s.name}_test.rb"]
+
+  s.files             = top_files + lib_files + test_files
+  s.test_files        = test_files
 
 end
