@@ -1,6 +1,6 @@
 require 'simplecov'
 SimpleCov.start
-require 'test/unit'
+require 'minitest/autorun'
 require 'sixarm_ruby_metric_names'
 
 class NumericTest < Test::Unit::TestCase
