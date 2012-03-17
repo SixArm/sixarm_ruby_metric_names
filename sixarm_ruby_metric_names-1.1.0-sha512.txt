@@ -1,0 +1,1 @@
+b30efeef6d76000c2e74b6a71de4d08b58fc6e48d514e70907faca7e05b6a22b6295496206c6d7be7ea6b4de6a6c6fad52ab5494ac2a748a93c72ae08b18235c  sixarm_ruby_metric_names-1.1.0.gem

@@ -4,65 +4,65 @@ require 'simplecov'
 SimpleCov.start
 require 'sixarm_ruby_metric_names'
 
-class NumericTest < Test::Unit::TestCase
-  
-  def test_peta
-    assert_equal(1000000000000000,1.peta)
+describe Numeric do
+
+  it "#peta" do
+    1.peta.must_equal 1000000000000000
   end
 
 
-  def test_tera
-    assert_equal(1000000000000,1.tera)
+  it "#tera" do
+    1.tera.must_equal 1000000000000
   end
 
 
-  def test_giga
-    assert_equal(1000000000,1.giga)
+  it "#giga" do
+    1.giga.must_equal 1000000000
   end
 
 
-  def test_mega
-    assert_equal(1000000,1.mega)
+  it "#mega" do
+    1.mega.must_equal 1000000
   end
 
 
-  def test_kilo
-    assert_equal(1000,1.kilo)
+  it "#kilo" do
+    1.kilo.must_equal 1000
   end
 
 
-  def test_hecto
-    assert_equal(100,1.hecto)
+  it "#hecto" do
+    1.hecto.must_equal 100
   end
 
 
-  def test_deka
-    assert_equal(10,1.deka)
+  it "#deka" do
+    1.deka.must_equal 10
   end
 
 
-  def test_deci
-    assert_equal(0.1,1.deci)
+  it "#deci" do
+    1.deci.must_equal 0.1
   end
 
 
-  def test_centi
-    assert_equal(0.01,1.centi)
+  it "#centi" do
+    1.centi.must_equal 0.01
   end
 
 
-  def test_milli
-    assert_equal(0.001,1.milli)
+  it "#milli" do
+    1.milli.must_equal 0.001
   end
 
 
-  def test_micro
-    assert_equal(0.000001,1.micro)
+  it "#micro" do
+    1.micro.must_equal 0.000001
   end
 
 
-  def test_nano
-    assert_equal(0.000000001,1.nano)
+  it "#nano" do
+    1.nano.must_equal 0.000000001
   end
 
 
