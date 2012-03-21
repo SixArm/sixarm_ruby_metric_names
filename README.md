@@ -1,4 +1,4 @@
-# SixArm.com » Ruby » <br > Numeric extensions for metric names
+# SixArm.com » Ruby » <br> Numeric extensions for metric names
 
 * Docs: <http://sixarm.com/sixarm_ruby_metric_names/doc>
 * Repo: <http://github.com/sixarm/sixarm_ruby_metric_names>
@@ -14,7 +14,7 @@ For docs go to <http://sixarm.com/sixarm_ruby_metric_names/doc>
 Want to help? We're happy to get pull requests.
 
 
-## Quickstart
+## Install quickstart
 
 Install:
 
@@ -22,14 +22,14 @@ Install:
 
 Bundler:
 
-    gem "sixarm_ruby_metric_names", "=1.1.0"
+    gem "sixarm_ruby_metric_names", "~>1.1.0"
 
 Require:
 
     require "sixarm_ruby_metric_names"
 
 
-## High Security (Optional)
+## Install with security (optional)
 
 To enable high security for all our gems:
 
