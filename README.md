@@ -1,6 +1,7 @@
 # SixArm.com » Ruby » <br> Numeric extensions for metric names
 
-* Docs: <http://sixarm.com/sixarm_ruby_metric_names/doc>
+* Doc: <http://sixarm.com/sixarm_ruby_metric_names/doc>
+* Gem: <http://rubygems.org/gems/sixarm_ruby_metric_names>
 * Repo: <http://github.com/sixarm/sixarm_ruby_metric_names>
 * Email: Joel Parker Henderson, <joel@sixarm.com>
 
