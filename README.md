@@ -49,8 +49,3 @@ Convert a number to its metric name equivalent:
 
     8.kilo  #=> 5000
     800.centi  #=> 8
-
-
-## Changes
-
-* 2012-03-17 1.1.0 Upgrade for Ruby 1.9.3, minitest/spec, and improved docs.
