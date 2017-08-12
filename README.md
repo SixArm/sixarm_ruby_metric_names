@@ -1,4 +1,4 @@
-SixArm.com → Ruby → <br> Numeric extensions for metric names
+# SixArm.com → Ruby → <br> Numeric extensions for metric names
 
 * Doc: <http://sixarm.com/sixarm_ruby_metric_names/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_metric_names>
