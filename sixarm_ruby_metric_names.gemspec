@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_metric_names"
-  s.summary           = "SixArm.com » Ruby » Metric names"
+  s.summary           = "SixArm.com → Ruby → Metric names"
   s.description       = "Metric names for numbers, such as kilo, mega, giga"
   s.version           = "1.1.1"
 
